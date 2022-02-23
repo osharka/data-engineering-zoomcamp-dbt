@@ -5711,3 +5711,15 @@ with trips_data as (
 2022-02-23 17:41:57.727600 (Thread-314): handling status request
 2022-02-23 17:41:57.728001 (Thread-314): 17:41:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6d613d21-f568-4f8e-a5f1-6ef896a01cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6c587d30>]}
 2022-02-23 17:41:57.728490 (Thread-314): sending response (<Response 1585 bytes [200 OK]>) to 10.0.38.29
+2022-02-23 17:42:11.901222 (Thread-315): 17:42:11  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-23 17:42:11.901460 (Thread-315): 17:42:11  Partial parsing enabled, no changes found, skipping parsing
+2022-02-23 17:42:11.907894 (Thread-315): 17:42:11  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6d613d21-f568-4f8e-a5f1-6ef896a01cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6c426fd0>]}
+2022-02-23 17:42:12.704287 (Thread-316): handling status request
+2022-02-23 17:42:12.704670 (Thread-316): 17:42:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6d613d21-f568-4f8e-a5f1-6ef896a01cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6c4eb070>]}
+2022-02-23 17:42:12.705156 (Thread-316): sending response (<Response 1244 bytes [200 OK]>) to 10.0.31.140
+2022-02-23 17:42:12.805958 (Thread-317): handling status request
+2022-02-23 17:42:12.806345 (Thread-317): 17:42:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6d613d21-f568-4f8e-a5f1-6ef896a01cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6c4f4df0>]}
+2022-02-23 17:42:12.806822 (Thread-317): sending response (<Response 1244 bytes [200 OK]>) to 10.0.38.29
+2022-02-23 17:42:44.815107 (Thread-318): handling status request
+2022-02-23 17:42:44.815478 (Thread-318): 17:42:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6d613d21-f568-4f8e-a5f1-6ef896a01cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6c4f4c10>]}
+2022-02-23 17:42:44.815938 (Thread-318): sending response (<Response 1244 bytes [200 OK]>) to 10.0.7.232
