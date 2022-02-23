@@ -13,8 +13,8 @@ yellow_data as (
 ), 
 
 trips_unioned as (
-    select * from green_data
-    union all
+--    select * from green_data
+--    union all
     select * from yellow_data
 ), 
 
